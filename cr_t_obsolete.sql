@@ -24,3 +24,5 @@
   TABLESPACE "USERS" ;
 REM INSERTING into DBADMIN.OBSOLETE
 SET DEFINE OFF;
+
+comment on table dbadmin.obsolete is 'Candidates for deletion.';
